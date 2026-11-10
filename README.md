@@ -1,5 +1,11 @@
 # pydantic-ai-deepkeep
 
+> **Development moved:** This integration is maintained in the
+> [DeepKeep integrations monorepo](https://github.com/Deepkeepai/deepkeep-integrations/tree/main/integrations/pydantic-ai).
+> Please open new [issues](https://github.com/Deepkeepai/deepkeep-integrations/issues) and pull requests in the monorepo.
+> Historical source and existing links remain available here.
+> The PyPI package name remains `pydantic-ai-deepkeep`.
+
 DeepKeep AI Firewall custom guardrails for Pydantic AI.
 
 This package follows Pydantic AI's native custom capability extension point. Add `DeepKeepGuardrail` to an `Agent` with `capabilities=[...]` to check input before a model request and output after a model response.
